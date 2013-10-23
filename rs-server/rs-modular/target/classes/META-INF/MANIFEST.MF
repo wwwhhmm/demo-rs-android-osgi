@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1382513115889
+Build-Jdk: 1.6.0_35
+Built-By: www
+Bundle-Blueprint: OSGI-INF/blueprint/my-service.xml
+Bundle-Description: rs-modular OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: rs-modular Blueprint Bundle
+Bundle-SymbolicName: rs-modular
+Bundle-Version: 0.0.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.whm.demo.rs.presentation.to;version="0.0.3.SNAPSHOT"
+Import-Package: javax.ws.rs;version="[1.1,2)",javax.ws.rs.core;version="
+ [1.1,2)",javax.xml.bind.annotation,org.osgi.service.blueprint;version="
+ [1.0.0,2.0.0)"
+Tool: Bnd-2.1.0.20130426-122213

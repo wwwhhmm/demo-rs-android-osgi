@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+    <feature name="rs-server-demo" version="${pom.version}">
+        <feature>cxf</feature>
+		<feature>cxf-jaxrs</feature>
+        <bundle>mvn:com.whm.demo/rs-modular/${pom.version}</bundle>
+    </feature>
+</features>
